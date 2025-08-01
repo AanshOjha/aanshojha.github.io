@@ -12,9 +12,17 @@ Your portfolio is now ready for GitHub Pages! Follow these steps to deploy:
    - **DO NOT** initialize with README, .gitignore, or license (we already have these)
 4. Click "Create repository"
 
-## Step 2: Connect Your Local Repository
+## Step 2: Push the Fixed Code
 
-In VS Code terminal, run these commands:
+First, push the latest fixes to your repository:
+
+```bash
+git push origin main
+```
+
+## Step 3: Connect Your Local Repository (if not done already)
+
+If you haven't connected to GitHub yet, run:
 
 ```bash
 git remote add origin https://github.com/AanshOjha/portfolio.git
@@ -22,7 +30,7 @@ git branch -M main
 git push -u origin main
 ```
 
-## Step 3: Enable GitHub Pages
+## Step 4: Enable GitHub Pages
 
 1. Go to your repository: `https://github.com/AanshOjha/portfolio`
 2. Click **Settings** tab
@@ -30,7 +38,7 @@ git push -u origin main
 4. Under **Source**, select **GitHub Actions**
 5. Save the settings
 
-## Step 4: Wait for Deployment
+## Step 5: Wait for Deployment
 
 1. Go to **Actions** tab in your repository
 2. You'll see "Deploy to GitHub Pages" workflow running
