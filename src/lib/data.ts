@@ -2,12 +2,12 @@
 export const personalInfo = {
   name: "Aansh Ojha",
   title: "Software Developer",
-  email: "aansh.ojha@example.com",
+  email: "aanshojha185@gmail.com",
   phone: "+1 (555) 123-4567",
   location: "Your City, State",
   linkedIn: "https://linkedin.com/in/aansh-ojha",
-  github: "https://github.com/aansh-ojha",
-  website: "https://aansh-ojha.com"
+  github: "https://github.com/AanshOjha",
+  website: "https://aanshojha.github.io/portfolio"
 };
 
 export const about = {
@@ -80,7 +80,7 @@ export const projects = [
       "Shopping cart and checkout process",
       "Admin panel for inventory management"
     ],
-    github: "https://github.com/aansh-ojha/ecommerce-platform",
+    github: "https://github.com/AanshOjha/ecommerce-platform",
     demo: "https://ecommerce-demo.com",
     image: "/project1.jpg"
   },
@@ -94,7 +94,7 @@ export const projects = [
       "Project timeline visualization",
       "Team communication tools"
     ],
-    github: "https://github.com/aansh-ojha/task-manager",
+    github: "https://github.com/AanshOjha/task-manager",
     demo: "https://task-manager-demo.com",
     image: "/project2.jpg"
   },
@@ -108,7 +108,7 @@ export const projects = [
       "Interactive weather maps",
       "Location-based services"
     ],
-    github: "https://github.com/aansh-ojha/weather-dashboard",
+    github: "https://github.com/AanshOjha/weather-dashboard",
     demo: "https://weather-dashboard-demo.com",
     image: "/project3.jpg"
   }

@@ -144,7 +144,7 @@
         Want to see more of my work?
       </p>
       <a
-        href="https://github.com/aansh-ojha"
+        href="https://github.com/AanshOjha"
         target="_blank"
         rel="noopener noreferrer"
         class="btn-secondary"

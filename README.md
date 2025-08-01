@@ -28,7 +28,7 @@ A modern, responsive portfolio website built with SvelteKit, TypeScript, and Tai
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/aansh-ojha/portfolio.git
+git clone https://github.com/AanshOjha/portfolio.git
 cd portfolio
 ```
 
@@ -168,8 +168,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 👨‍💻 Author
 
 **Aansh Ojha**
-- Portfolio: [https://aansh-ojha.com](https://aansh-ojha.com)
-- GitHub: [@aansh-ojha](https://github.com/aansh-ojha)
+- Portfolio: [https://aanshojha.github.io/portfolio](https://aanshojha.github.io/portfolio)
+- GitHub: [@AanshOjha](https://github.com/AanshOjha)
 - LinkedIn: [Aansh Ojha](https://linkedin.com/in/aansh-ojha)
 
 ## 🙏 Acknowledgments
