@@ -6,7 +6,7 @@
   let mounted = $state(false);
   let typedText = $state('');
   
-  const roles = ['Software Developer', 'Full Stack Engineer', 'Problem Solver', 'Tech Enthusiast'];
+  const roles = ['Software Developer', 'Python Developer', 'Java Developer', 'Problem Solver', 'Tech Enthusiast'];
   let currentRoleIndex = $state(0);
   let currentCharIndex = $state(0);
   let isDeleting = $state(false);
@@ -47,7 +47,7 @@
   
   function downloadResume() {
     // Replace with your actual resume link
-    window.open('/resume.pdf', '_blank');
+    window.open('https://drive.google.com/file/d/120qwIKdTnqC2Qof_CBd0QQUVjQSxVqv2/view?usp=sharing', '_blank');
   }
 </script>
 
@@ -82,8 +82,8 @@
       
       <!-- Description -->
       <p class="text-lg sm:text-xl text-gray-300 max-w-3xl mx-auto mb-12 leading-relaxed {mounted ? 'animate-slide-up' : 'opacity-0'}" style="animation-delay: 0.6s;">
-        Passionate about creating innovative solutions and building exceptional digital experiences. 
-        I transform ideas into reality through clean, efficient code and modern technologies.
+        As a software developer, I specialize in backend systems and cloud technologies, currently learning AI.
+        I have a passion for building scalable, efficient solutions and a strong foundation in computer science.
       </p>
       
       <!-- CTA Buttons -->

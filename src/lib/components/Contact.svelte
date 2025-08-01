@@ -62,21 +62,21 @@
       value: personalInfo.email,
       href: `mailto:${personalInfo.email}`,
       color: 'text-blue-400'
-    },
-    {
-      icon: Phone,
-      title: 'Phone',
-      value: personalInfo.phone,
-      href: `tel:${personalInfo.phone}`,
-      color: 'text-green-400'
-    },
-    {
-      icon: MapPin,
-      title: 'Location',
-      value: personalInfo.location,
-      href: '#',
-      color: 'text-red-400'
     }
+    // {
+    //   icon: Phone,
+    //   title: 'Phone',
+    //   value: personalInfo.phone,
+    //   href: `tel:${personalInfo.phone}`,
+    //   color: 'text-green-400'
+    // },
+    // {
+    //   icon: MapPin,
+    //   title: 'Location',
+    //   value: personalInfo.location,
+    //   href: '#',
+    //   color: 'text-red-400'
+    // }
   ];
 </script>
 

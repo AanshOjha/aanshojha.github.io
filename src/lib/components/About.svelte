@@ -39,13 +39,13 @@
     },
     {
       icon: Users,
-      title: 'Collaboration',
-      description: 'Working effectively in teams and contributing to a positive, productive development environment.'
+      title: 'Scalable Architecture',
+      description: 'Designing systems, like the microservices-based PhotoVault, that can grow and adapt to increasing demands.'
     },
     {
       icon: Target,
-      title: 'Results-Driven',
-      description: 'Focused on delivering high-quality solutions that meet business objectives and user needs.'
+      title: 'Adaptability & Continuous Learning',
+      description: 'I am a quick learner who adapts to new challenges. I am focused on continuous growth and am currently learning AI.'
     }
   ];
 </script>
