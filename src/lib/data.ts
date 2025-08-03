@@ -5,7 +5,7 @@ export const personalInfo = {
   email: "aanshojha185@gmail.com",
   linkedIn: "https://linkedin.com/in/aansh-ojha",
   github: "https://github.com/AanshOjha",
-  website: "https://aanshojha.github.io/portfolio"
+  website: "https://aanshojha.me"
 };
 
 export const about = {
