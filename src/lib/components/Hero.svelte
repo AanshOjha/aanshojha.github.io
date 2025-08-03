@@ -90,11 +90,11 @@
       <div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 {mounted ? 'animate-slide-up' : 'opacity-0'}" style="animation-delay: 0.8s;">
         <button onclick={downloadResume} class="btn-primary">
           <Download size={20} />
-          Download Resume
+          &nbsp;Download Resume
         </button>
         <a href="mailto:{personalInfo.email}" class="btn-secondary">
           <Mail size={20} />
-          Get In Touch
+          &nbsp;Get In Touch
         </a>
       </div>
       
