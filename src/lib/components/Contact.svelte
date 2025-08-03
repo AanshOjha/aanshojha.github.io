@@ -17,12 +17,15 @@
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
             sectionVisible = true;
           }
         });
       },
-      { threshold: 0.1 }
+      { 
+        threshold: [0.1, 0.2],
+        rootMargin: '50px 0px -50px 0px'
+      }
     );
     
     const contactSection = document.getElementById('contact');

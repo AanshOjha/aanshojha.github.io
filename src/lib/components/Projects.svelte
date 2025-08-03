@@ -9,12 +9,15 @@
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
-          if (entry.isIntersecting) {
+          if (entry.isIntersecting && entry.intersectionRatio > 0.1) {
             sectionVisible = true;
           }
         });
       },
-      { threshold: 0.1 }
+      { 
+        threshold: [0.1, 0.2],
+        rootMargin: '50px 0px -50px 0px'
+      }
     );
     
     const projectsSection = document.getElementById('projects');
@@ -37,7 +40,7 @@
     </div>
     
     <!-- Projects Grid -->
-    <div class="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
+    <div class="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
       {#each projects as project, index}
         <div 
           class="project-card group {sectionVisible ? 'animate-slide-up' : 'opacity-0'}"

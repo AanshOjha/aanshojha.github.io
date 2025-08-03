@@ -86,7 +86,6 @@ export const certifications = [
     issuer: "Microsoft",
     date: "2023",
     credentialId: "34AE3A90A65864B5",
-    image: "static/img/AZ-900.png",
     link: "https://learn.microsoft.com/en-in/users/aanshojha/credentials/34ae3a90a65864b5"
   },
   {
@@ -94,7 +93,6 @@ export const certifications = [
     issuer: "Udemy",
     date: "2024",
     credentialId: "XXXX-XXXX-XXXX-XXXX",
-    image: "static/img/Docker.png",
     link: "https://drive.google.com/file/d/1VSRrX2zmDfQW4-D-PSSy-DHIA9uo3ilz/view?usp=sharing"
   }
 ];

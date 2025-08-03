@@ -39,7 +39,7 @@
 
 <svelte:window on:scroll={handleScroll} />
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-dark-900/90 backdrop-blur-md border-b border-white/10">
+<nav class="fixed top-0 left-0 right-0 z-[9999] bg-dark-900/95 backdrop-blur-md border-b border-white/10 shadow-lg">
   <div class="container-max section-padding">
     <div class="flex items-center justify-between h-16">
       <!-- Logo -->
