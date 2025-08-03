@@ -4,7 +4,7 @@
 
 ## ⚡ Current Status
 
-- ✅ Repository: `https://github.com/AanshOjha/Portfolio` (connected)
+- ✅ Repository: `https://github.com/AanshOjha` (connected)
 - ✅ Build workflow: Fixed and deployed
 - ✅ All conflicting workflows: Removed
 
@@ -12,7 +12,7 @@
 
 **Right now, you need to:**
 
-1. Go to your repository: `https://github.com/AanshOjha/Portfolio`
+1. Go to your repository: `https://github.com/AanshOjha`
 2. Click **Settings** tab
 3. Scroll down to **Pages** section (left sidebar)
 4. Under **Source**, select **GitHub Actions** (not "Deploy from a branch")
@@ -27,17 +27,17 @@ The error you saw is **normal**:
 
 ## ✅ Check Deployment Status
 
-1. Go to **Actions** tab in your repository: `https://github.com/AanshOjha/Portfolio/actions`
+1. Go to **Actions** tab in your repository: `https://github.com/AanshOjha/actions`
 2. Look for "Deploy to GitHub Pages" workflow
 3. The latest run should complete successfully (green checkmark, ~2-5 minutes)
-4. Your site will be live at: `https://AanshOjha.github.io/Portfolio/`
+4. Your site will be live at: `https://AanshOjha.github.io/`
 
 ## 🔧 Fixed Issue: Base Path Mismatch
 
 The blank page was caused by a case-sensitive URL mismatch:
 - Repository name: `Portfolio` (capital P)
 - Base path was: `/portfolio/` (lowercase p)
-- **Fixed**: Updated base path to `/Portfolio/` to match repository name
+- **Fixed**: Updated base path to `/` to match repository name
 
 ## 🎉 Your Portfolio Will Be Live!
 
