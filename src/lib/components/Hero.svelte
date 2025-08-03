@@ -51,7 +51,7 @@
   }
 </script>
 
-<section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden">
+<section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden pt-20 sm:pt-16">
   <!-- Background Animation -->
   <div class="absolute inset-0 opacity-20">
     <div class="absolute top-1/4 left-1/4 w-72 h-72 bg-primary-500 rounded-full mix-blend-multiply filter blur-xl animate-pulse-slow"></div>

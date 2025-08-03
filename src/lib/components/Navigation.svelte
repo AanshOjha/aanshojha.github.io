@@ -27,7 +27,8 @@
       const element = document.getElementById(section);
       if (element) {
         const rect = element.getBoundingClientRect();
-        if (rect.top <= 100 && rect.bottom >= 100) {
+        // Account for navigation bar height (64px + some offset)
+        if (rect.top <= 120 && rect.bottom >= 120) {
           activeSection = section;
           break;
         }

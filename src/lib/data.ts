@@ -9,7 +9,7 @@ export const personalInfo = {
 };
 
 export const about = {
-  summary: "nate software developer with expertise in modern web technologies and a strong foundation in computer science. Dedicated to creating efficient, scalable solutions and continuously learning new technologies.",
+  summary: "Software developer with expertise in modern web technologies and a strong foundation in computer science. Dedicated to creating efficient, scalable solutions and continuously learning new technologies.",
   highlights: [
     'Proficient in languages like Java and Python for designing and implementing scalable backend systems and APIs.',
     'Experienced with DevOps technologies like Kubernetes and Docker on cloud platforms including AWS and Microsoft Azure.',
@@ -85,12 +85,16 @@ export const certifications = [
     name: "Microsoft Certified: Azure Fundamentals",
     issuer: "Microsoft",
     date: "2023",
-    credentialId: "34AE3A90A65864B5"
+    credentialId: "34AE3A90A65864B5",
+    image: "static/img/AZ-900.png",
+    link: "https://learn.microsoft.com/en-in/users/aanshojha/credentials/34ae3a90a65864b5"
   },
   {
     name: "Docker and Kubernetes: The Complete Guide",
     issuer: "Udemy",
     date: "2024",
-    credentialId: "XXXX-XXXX-XXXX-XXXX"
+    credentialId: "XXXX-XXXX-XXXX-XXXX",
+    image: "static/img/Docker.png",
+    link: "https://drive.google.com/file/d/1VSRrX2zmDfQW4-D-PSSy-DHIA9uo3ilz/view?usp=sharing"
   }
 ];

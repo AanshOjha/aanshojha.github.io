@@ -146,17 +146,41 @@
         
         <div class="space-y-4">
           {#each certifications as cert, index}
-            <div 
-              class="card-glass p-6 {sectionVisible ? 'animate-slide-up' : 'opacity-0'}"
+            <a
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block card-glass p-6 hover:bg-white/10 transition-all duration-300 transform hover:scale-105 cursor-pointer group {sectionVisible ? 'animate-slide-up' : 'opacity-0'}"
               style="animation-delay: {1.2 + index * 0.1}s;"
             >
-              <h4 class="text-lg font-bold text-white mb-2">{cert.name}</h4>
-              <p class="text-primary-300 font-semibold mb-2">{cert.issuer}</p>
-              <div class="flex items-center justify-between text-sm text-gray-400">
-                <span>Issued: {cert.date}</span>
-                <span>ID: {cert.credentialId}</span>
+              <div class="flex items-start space-x-4">
+                <!-- Certificate Thumbnail -->
+                <div class="flex-shrink-0">
+                  <img 
+                    src={cert.image} 
+                    alt="{cert.name} certificate"
+                    class="w-16 h-16 object-cover rounded-lg border border-white/20 group-hover:border-primary-400/50 transition-colors duration-300"
+                  />
+                </div>
+                
+                <!-- Certificate Details -->
+                <div class="flex-1 min-w-0">
+                  <h4 class="text-lg font-bold text-white mb-2 group-hover:text-primary-300 transition-colors duration-300">{cert.name}</h4>
+                  <p class="text-primary-300 font-semibold mb-2">{cert.issuer}</p>
+                  <div class="flex items-center justify-between text-sm text-gray-400">
+                    <span>Issued: {cert.date}</span>
+                    <span>ID: {cert.credentialId}</span>
+                  </div>
+                </div>
+                
+                <!-- External Link Icon -->
+                <div class="flex-shrink-0">
+                  <svg class="w-5 h-5 text-gray-400 group-hover:text-primary-400 transition-colors duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                  </svg>
+                </div>
               </div>
-            </div>
+            </a>
           {/each}
         </div>
       </div>
