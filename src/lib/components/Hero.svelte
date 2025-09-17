@@ -47,7 +47,7 @@
   
   function downloadResume() {
     // Replace with your actual resume link
-    window.open('https://drive.google.com/file/d/120qwIKdTnqC2Qof_CBd0QQUVjQSxVqv2/view?usp=sharing', '_blank');
+    window.open('https://drive.google.com/drive/folders/1SvViEQBG6ewr4YGnRVJH0iH9XmtcGyL_?usp=sharing', '_blank');
   }
 </script>
 
