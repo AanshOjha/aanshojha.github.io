@@ -51,6 +51,20 @@ export const skills = {
 
 export const projects = [
   {
+    title: "AlgoTrade: Algorithmic Trading & Backtesting Platform",
+    description: "A comprehensive full-stack trading application featuring a FastAPI backend with advanced backtesting capabilities and a Vue.js frontend with interactive charts and real-time analysis. Built for testing and analyzing multiple trading strategies with historical market data.",
+    technologies: ["Yahoo Finance", "Python", "FastAPI", "Vue.js", "Trading Strategies"],
+    features: [
+        "Advanced Backtesting: Test trading strategies with historical market data.",
+        "Real-time Analysis: Interactive charts and real-time market analysis.",
+        "Multiple Strategies: Support for various algorithmic trading strategies.",
+        "Performance Metrics: Comprehensive analysis of strategy performance."
+    ],
+    github: "https://github.com/AanshOjha/AlgoTrade",
+    demo: "#",
+    image: "algotrade.jpeg"
+  },
+  {
     title: "PhotoVault: Photo Management Platform",
     description: "PhotoVault is a personal photo album application built with Flask. It enables users to securely store, organize, and manage their photos, providing a simple and intuitive interface for personal photo management.",
     technologies: ["Docker", "Python", "Flask", "MySQL", "HTML", "CSS", "JavaScript"],
@@ -62,21 +76,21 @@ export const projects = [
     ],
     github: "https://github.com/AanshOjha/Flask-Login-System",
     demo: "https://photvault.onrender.com",
-    image: "/project1.jpg"
+    image: "photovault.png"
   },
   {
     title: "ElectroMeter: Electricity Bill Generator API",
     description: "Electricity Bill Generator API is a backend service built to calculate and manage electricity bills. It provides endpoints for generating bills based on consumption, user details, and tariff rates, enabling integration with other systems or frontends.",
     technologies: ["Java", "Spring Boot", "MySQL", "REST API", "JUnit", "Docker"],
     features: [
-        "Automated Bill Calculation:** Computes electricity bills based on user input and usage data.",
-        "RESTful API Endpoints:** Provides endpoints for bill generation, retrieval, and management.",
-        "User & Consumption Management:** Manages user profiles and tracks electricity usage.",
-        "Customizable Tariff Rates:** Supports dynamic tariff/rate configuration for flexible billing."
+        "Automated Bill Calculation: Computes electricity bills based on user input and usage data.",
+        "RESTful API Endpoints: Provides endpoints for bill generation, retrieval, and management.",
+        "User & Consumption Management: Manages user profiles and tracks electricity usage.",
+        "Customizable Tariff Rates: Supports dynamic tariff/rate configuration for flexible billing."
     ],
     github: "https://github.com/AanshOjha/Electricity-Bill-Generator-API",
-    demo: "#", // Placeholder add video in the future
-    image: "/project2.jpg"
+    demo: "#",
+    image: "electrometer.png"
   }
 ];
 

@@ -48,8 +48,25 @@
         >
           <!-- Project Image -->
           <div class="relative mb-6 overflow-hidden rounded-lg bg-gradient-to-br from-primary-500/20 to-purple-500/20">
-            <div class="aspect-video flex items-center justify-center">
-              <Code size={48} class="text-primary-400" />
+            <div class="aspect-video">
+              {#if project.image && project.image !== "#"}
+                <!-- svelte-ignore event_directive_deprecated -->
+                <img 
+                  src={"/" + project.image} 
+                  alt={project.title}
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+                  on:load={() => console.log(`✅ Image loaded: ${project.image}`)}
+                  on:error={(e) => {
+                    console.error(`❌ Image failed to load: ${project.image}`);
+                    e.target.style.display = 'none';
+                    e.target.parentElement.innerHTML = '<div class="w-full h-full flex items-center justify-center bg-gray-700"><div class="text-primary-400 text-center"><div class="mb-2">🖼️</div><div class="text-xs">Image not found</div></div></div>';
+                  }}
+                />
+              {:else}
+                <div class="w-full h-full flex items-center justify-center">
+                  <Code size={48} class="text-primary-400" />
+                </div>
+              {/if}
             </div>
             <div class="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
               <div class="flex space-x-4">
