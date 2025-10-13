@@ -2,7 +2,7 @@
 export const personalInfo = {
   name: "Aansh Ojha",
   title: "Software Developer",
-  email: "aanshojha185@gmail.com",
+  email: "aansh.ojha@outlook.com",
   linkedIn: "https://linkedin.com/in/aansh-ojha",
   github: "https://github.com/AanshOjha",
   website: "https://aanshojha.me"
